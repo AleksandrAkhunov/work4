@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<V8Exch:_1CV8DtUD xmlns:V8Exch="http://www.1c.ru/V8/1CV8DtUD/" xmlns:core="http://v8.1c.ru/data" xmlns:v8="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<V8Exch:Data>
+		<v8:CatalogObject.Контрагенты>
+			<v8:IsFolder>false</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.Контрагенты">28decbef-6eaf-11e6-82bf-902b34958bcb</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.Контрагенты">00000000-0000-0000-0000-000000000000</v8:Parent>
+			<v8:Code>000000001</v8:Code>
+			<v8:Description>Покупатель</v8:Description>
+		</v8:CatalogObject.Контрагенты>
+		<v8:CatalogObject.Акции>
+			<v8:IsFolder>false</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.Акции">a71cad66-74b8-11e6-82c0-902b34958bcb</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.Акции">00000000-0000-0000-0000-000000000000</v8:Parent>
+			<v8:Code>000000001</v8:Code>
+			<v8:Description>Продажа Атлант</v8:Description>
+		</v8:CatalogObject.Акции>
+		<v8:CatalogObject.Товары>
+			<v8:IsFolder>false</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.Товары">28decbf0-6eaf-11e6-82bf-902b34958bcb</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.Товары">00000000-0000-0000-0000-000000000000</v8:Parent>
+			<v8:Code>000000001</v8:Code>
+			<v8:Description>Товар1</v8:Description>
+		</v8:CatalogObject.Товары>
+		<v8:DocumentObject.Продажа>
+			<v8:Ref>ebe18004-7361-11e6-82c0-902b34958bcb</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2016-09-07T10:10:31</v8:Date>
+			<v8:Number>000000003</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:Контрагент xsi:type="v8:CatalogRef.Контрагенты">28decbef-6eaf-11e6-82bf-902b34958bcb</v8:Контрагент>
+			<v8:СуммаДокумента>750</v8:СуммаДокумента>
+			<v8:Акция xsi:type="v8:CatalogRef.Акции">a71cad66-74b8-11e6-82c0-902b34958bcb</v8:Акция>
+			<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">00000000-0000-0000-0000-000000000000</v8:Сотрудник>
+			<v8:Товары>
+				<v8:Товар xsi:type="v8:CatalogRef.Товары">28decbf0-6eaf-11e6-82bf-902b34958bcb</v8:Товар>
+				<v8:Количество>5</v8:Количество>
+				<v8:Цена>150</v8:Цена>
+				<v8:Сумма>750</v8:Сумма>
+			</v8:Товары>
+		</v8:DocumentObject.Продажа>
+		<v8:AccumulationRegisterRecordSet.Продажи>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Продажа">ebe18004-7361-11e6-82c0-902b34958bcb</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>ebe18004-7361-11e6-82c0-902b34958bcb</v8:Recorder>
+				<v8:Period>2016-09-07T10:10:31</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Товар xsi:type="v8:CatalogRef.Товары">28decbf0-6eaf-11e6-82bf-902b34958bcb</v8:Товар>
+				<v8:Акция xsi:type="v8:CatalogRef.Акции">a71cad66-74b8-11e6-82c0-902b34958bcb</v8:Акция>
+				<v8:Контрагент xsi:type="v8:CatalogRef.Контрагенты">28decbef-6eaf-11e6-82bf-902b34958bcb</v8:Контрагент>
+				<v8:Количество>5</v8:Количество>
+				<v8:СуммаПродажи>750</v8:СуммаПродажи>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.Продажи>
+		<v8:AccumulationRegisterRecordSet.ТоварыНаСкладах>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Продажа">ebe18004-7361-11e6-82c0-902b34958bcb</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.Продажа">ebe18004-7361-11e6-82c0-902b34958bcb</v8:Recorder>
+				<v8:Period>2016-09-07T10:10:31</v8:Period>
+				<v8:RecordType>Expense</v8:RecordType>
+				<v8:Active>true</v8:Active>
+				<v8:Товар xsi:type="v8:CatalogRef.Товары">28decbf0-6eaf-11e6-82bf-902b34958bcb</v8:Товар>
+				<v8:Партия>00000000-0000-0000-0000-000000000000</v8:Партия>
+				<v8:Количество>5</v8:Количество>
+				<v8:Стоимость>0</v8:Стоимость>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ТоварыНаСкладах>
+		<v8:DocumentObject.Продажа>
+			<v8:Ref>19a51c02-7360-11e6-82c0-902b34958bcb</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2016-09-05T17:09:10</v8:Date>
+			<v8:Number>000000002</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:Контрагент xsi:type="v8:CatalogRef.Контрагенты">28decbef-6eaf-11e6-82bf-902b34958bcb</v8:Контрагент>
+			<v8:СуммаДокумента>150</v8:СуммаДокумента>
+			<v8:Акция xsi:type="v8:CatalogRef.Акции">00000000-0000-0000-0000-000000000000</v8:Акция>
+			<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">00000000-0000-0000-0000-000000000000</v8:Сотрудник>
+			<v8:Товары>
+				<v8:Товар xsi:type="v8:CatalogRef.Товары">28decbf0-6eaf-11e6-82bf-902b34958bcb</v8:Товар>
+				<v8:Количество>1</v8:Количество>
+				<v8:Цена>150</v8:Цена>
+				<v8:Сумма>150</v8:Сумма>
+			</v8:Товары>
+		</v8:DocumentObject.Продажа>
+		<v8:AccumulationRegisterRecordSet.Продажи>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Продажа">19a51c02-7360-11e6-82c0-902b34958bcb</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>19a51c02-7360-11e6-82c0-902b34958bcb</v8:Recorder>
+				<v8:Period>2016-09-05T17:09:10</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Товар xsi:type="v8:CatalogRef.Товары">28decbf0-6eaf-11e6-82bf-902b34958bcb</v8:Товар>
+				<v8:Акция xsi:type="v8:CatalogRef.Акции">00000000-0000-0000-0000-000000000000</v8:Акция>
+				<v8:Контрагент xsi:type="v8:CatalogRef.Контрагенты">28decbef-6eaf-11e6-82bf-902b34958bcb</v8:Контрагент>
+				<v8:Количество>1</v8:Количество>
+				<v8:СуммаПродажи>150</v8:СуммаПродажи>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.Продажи>
+		<v8:AccumulationRegisterRecordSet.ТоварыНаСкладах>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Продажа">19a51c02-7360-11e6-82c0-902b34958bcb</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.Продажа">19a51c02-7360-11e6-82c0-902b34958bcb</v8:Recorder>
+				<v8:Period>2016-09-05T17:09:10</v8:Period>
+				<v8:RecordType>Expense</v8:RecordType>
+				<v8:Active>true</v8:Active>
+				<v8:Товар xsi:type="v8:CatalogRef.Товары">28decbf0-6eaf-11e6-82bf-902b34958bcb</v8:Товар>
+				<v8:Партия>00000000-0000-0000-0000-000000000000</v8:Партия>
+				<v8:Количество>1</v8:Количество>
+				<v8:Стоимость>0</v8:Стоимость>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ТоварыНаСкладах>
+	</V8Exch:Data>
+	<PredefinedData/>
+</V8Exch:_1CV8DtUD>
